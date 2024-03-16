@@ -140,7 +140,6 @@ const App = () => {
           </div>
         </div>
 
-        {/* Other columns and tasks */}
         <div
           className="Column InProgress"
           onDrop={(e) => handleDrop(e, 'inProgress')}

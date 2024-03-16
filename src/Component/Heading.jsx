@@ -3,7 +3,7 @@ import React from 'react'
 function Heading() {
   return (
     <div style={{color:'white'}}>
-        <h1>To-do</h1>
+        <h1>Workflow Management</h1>
         </div>
   )
 }

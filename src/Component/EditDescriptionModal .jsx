@@ -1,4 +1,3 @@
-// EditDescriptionModal.jsx
 import React, { useState } from 'react';
 
 const EditDescriptionModal = ({ isOpen, onClose, taskId, initialDescription, onSave }) => {
