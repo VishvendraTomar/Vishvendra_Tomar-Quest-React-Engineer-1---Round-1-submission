@@ -1,0 +1,87 @@
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.Board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Column {
+  flex-basis: 23%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  animation: fadeInDown 0.5s ease;
+}
+
+.Column:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-5px);
+}
+
+.Cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.Card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  animation: fadeIn 0.5s ease;
+}
+
+.Card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.add-card {
+  margin-top: 20px;
+}
+
+.add-card input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-card button {
+  padding: 8px 16px;
+  background-color: #948e8d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-card button:hover {
+  background-color: #616052;
+}
+
+.ToDo {
+  background-color: #ffcccc;
+}
+
+.InProgress {
+  background-color: #ccccff;
+}
+
+.Review {
+  background-color: #ccffcc;
+}
+
+.Done {
+  background-color: #ffffcc;
+}
